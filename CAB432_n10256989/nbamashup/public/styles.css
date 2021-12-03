@@ -1,0 +1,78 @@
+h1.title {
+  font-family: Arial;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  /* font-weight: 700; */
+  /* line-height: 26.4px; */
+  /* position: relative;
+  top: 1%;
+  left: 1%; */
+}
+
+p.text {
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+}
+
+div.bg {
+  background-image: url("giannis.png");
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  div.bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
+
+body.body {
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  color: rgb(26, 139, 22);
+}
+
+li.li {
+  margin-left: 0%;
+}
+
+h1.head {
+  margin-left: 0%;
+}
+
+p.p {
+  margin-left: 0%;
+}
+
+a.playernews {
+  padding-left: 0%;
+}
+
+body.team {
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+}
+
+li.playerOne {
+  padding-top: 1%;
+  margin: 1%;
+}
+
+h2.newsHead {
+  font-size: 40px;
+}
